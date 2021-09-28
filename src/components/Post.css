@@ -1,0 +1,47 @@
+.post {
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.img__post {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.h4__combar {
+    font-weight: normal;
+    padding: 20px;
+}
+
+.h5__combar {
+    font-weight: normal;
+    padding: 20px;
+}
+
+.div__headerpost {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.Avatar__uname {
+    margin-right: 10px;
+}
+
+.form__commentsection {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input__commentsection {
+    flex: 1;
+    border: none;
+}
+
+.button__commentsection {
+    flex: 0;
+}

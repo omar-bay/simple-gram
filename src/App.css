@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+.div__header {
+    display: flex;
+    background-color: white;
+    object-fit: contain;
+    padding: 20px;
+    border-bottom: 1px lightgray solid;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.in_out {
+    position: absolute;
+    right: 0;
+    /* the small shit again */
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8);
+    /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8);
+    /* Opera */
+    -moz-transform: scale(0.8, 0.8);
+    /* Firefox */
+}
+
+.App {
+    background-color: #fafafa;
+}
+
+.form__signup_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.div__footer {
+    max-width: 500px;
+    display: flex;
+    background-color: #DCDCDC;
+    object-fit: contain;
+    padding: 5px;
+    border-bottom: 1px lightgray solid;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    /* crazy shit to make shit smaller */
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8);
+    /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8);
+    /* Opera */
+    -moz-transform: scale(0.8, 0.8);
+    /* Firefox */
+}
+
+.div__renderingposts {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
